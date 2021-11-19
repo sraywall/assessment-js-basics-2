@@ -83,7 +83,7 @@ const calcFinalPrice = (cartTotal,couponValue,tax) => cartTotal *(1+tax) - coupo
     "name" because a name is important information for transactions. String because names aren't really numbers in most cases
     "address" where to deliver the purchased goods. String because address might have numbers but calculations aren't made on them
     "email" in order to send a purchase receipt to the customer. String because though emails may contain numbers, they aren't needed for math operations
-    "phone" a number to call/text if customers needs to be contacted or notified. String because phone numbers have dashes in them and aren't really evaluated mathmatically
+    "phone" a number to call/text if customers needs to be contacted or notified. String because phone numbers have dashes in them and aren't really evaluated mathematically
     "age" customer must be 18 or over to make a purchase. Number because the greater-than-equal-to operator can be used on a number
 */
 
