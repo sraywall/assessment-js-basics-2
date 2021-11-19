@@ -72,8 +72,7 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 */
 
 // CODE HERE
-let canWeDeliver = zipCode =>
-{
+let canWeDeliver = zipCode =>{
     for(zip of deliveryAreaZipCodes){
         if(zip === zipCode){
             return "You're in our delivery zone!"

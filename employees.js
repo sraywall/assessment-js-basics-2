@@ -117,7 +117,7 @@ class Manager extends Employee{
 */
 
 //CODE HERE
-const manOne = new Manager("Winston",["weekday mornings","weekday afternoons"],["Cece","Schmidt"])
+const manager = new Manager("Winston",["weekday mornings","weekday afternoons"],["Cece","Schmidt"])
 
 /*
     Call the `getEmployees` method on the
@@ -125,7 +125,7 @@ const manOne = new Manager("Winston",["weekday mornings","weekday afternoons"],[
 */
 
 //CODE HERE
-manOne.getEmployees()
+manager.getEmployees()
 /*
     Call the `addEmployee` method on the 
     `manager` object passing in the string 
@@ -133,7 +133,7 @@ manOne.getEmployees()
 */
 
 //CODE HERE 
-manOne.addEmployee("Coach")
+manager.addEmployee("Coach")
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
