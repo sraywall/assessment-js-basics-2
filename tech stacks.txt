@@ -1,0 +1,19 @@
+﻿Domo
+
+
+Technologies used:
+React.js, CSS, HTML5, Typescript, Redux, Angular, Vue.js, jQuery
+
+
+
+
+MX
+
+
+Technologies used:
+Ruby on Rails, Java, Git, Postgres
+
+
+Adobe
+Technologies used:
+Javascript,React,HTML,CSS,Node.js,Redux,Scala, Java,Spark, NoSQL
